@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   s.ios.deployment_target = "8.0"
   s.source = { :git => 'https://github.com/JTCloudPlugin/JTWeexTest.git', :tag => s.version.to_s }
-  s.source_files = "Source/WeexTest/*.{h,m,mm}"
+  s.source_files = "Source/*.{h,m,mm}","Source/WeexTest/*.{h,m,mm}"
   s.requires_arc = true
 end
 
